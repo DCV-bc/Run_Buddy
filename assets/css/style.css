@@ -1,13 +1,13 @@
 /* CSS Comment */
 
-/* Remove default styles */
+/* Remove defaults */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Header styles */
+/* Header */
 header {
     padding: 20px 35px;
     background-color: #39A6B2;
@@ -41,7 +41,27 @@ header nav ul li a {
     font-size: 22px;
 }
 
-/* Body style */
+/* Hero */
+.hero {
+    background-image: url("../images/hero-bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-form {
+    background-color: #FCE138;
+    padding: 20px;
+    width: 500px;
+    color: #024E76;
+    border: solid 3px #024E76;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+}
+
+/* Body */
 body{
     color: #39A6B2;
     font-family: Arial, Helvetica, sans-serif;
@@ -69,4 +89,9 @@ footer div {
 
 footer a {
     color: #024E76;
+}
+
+/* Section */
+section {
+    padding: 60px;
 }
